@@ -1,0 +1,15 @@
+#Ejercicio 2
+C = c(0.8,2.2,2.2,2.3,2.4,2.6,2.9,2.9,2.9,3.1,3.1,3.2,3.7,3.8,3.8,4.2,4.2,4.4,5.0,5.3)
+mean(C)
+var(C)
+n=length(C)
+var=(var(C)*n-1)/n
+sd(C)
+sqrt(var)
+sd(C)/mean(C)
+quantile(C,0.5)
+quantile(C,0.25)
+quantile(C,0.75)
+max(C)-min(C)
+quantile(C,0.75)-quantile(C,0.25)
+boxplot(C)
